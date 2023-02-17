@@ -9,8 +9,14 @@
 <body>
     <?php
        
-       ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL);
-       include("step 1.php")
+       error_reporting(E_ALL);
+       ini_set('display_errors', 0);
+       ini_set('log_errors', 1);
+       ini_set('error_log', '/var/log/php-errors.log');
+       
+       echo("I am getting errors but I can't see the errors");
+       echo("Search on how to enable PHP Errors");
+       $result = 10 / 0;
     ?>
 </body>
 </html>
