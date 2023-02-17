@@ -7,10 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-   <?php 
-       echo"Hello world, Help me I am using PHP
+    <?php
        
+       ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL);
+       include("step 1.php")
     ?>
-
 </body>
 </html>
