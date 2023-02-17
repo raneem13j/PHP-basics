@@ -7,10 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-   <?php 
-       echo"Hello world, Help me I am using PHP";
-       
+    <?php 
+      $name = "Raneem Aljamal";
+      $email= "aljamal.raneem@gmail.com";
+      
+      $height= 200;
+      $width= 100;
+      $area= $height * $width;
+      echo ($area);
     ?>
-
+   
 </body>
 </html>
