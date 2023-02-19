@@ -8,15 +8,14 @@
 </head>
 <body>
 <?php
-$num = 6; // the input number whose factorial we want to calculate
-$factorial = 1; // initialize the factorial variable to 1
+$num = 6; 
+$factorial = 1;
 
 while($num > 1) {
-    $factorial *= $num; // multiply the current value of $factorial with $num
-    $num--; // decrement $num by 1 for each iteration
+    $factorial *= $num; 
 }
 
-echo $factorial; // print the result
+echo $factorial; 
 ?>
 
 </body>
