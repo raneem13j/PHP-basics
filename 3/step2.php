@@ -12,11 +12,13 @@ $num = 6;
 $factorial = 1;
 
 while($num > 1) {
-    $factorial *= $num; 
+    $factorial *= $num;
+    $num--;
 }
 
 echo $factorial; 
 ?>
+
 
 </body>
 </html>
